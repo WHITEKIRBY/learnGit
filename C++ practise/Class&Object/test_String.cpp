@@ -3,8 +3,9 @@ using namespace std;
 
 int main(){
     //创建字符串
-    string s {"Hello"};
+    string s {"He llo"};
     //clear
+    cout << s.find(" ",0) << endl;
     s.clear();
     //用数组为字符串赋值
     char s2[] {'W','o','r','l','d'};
