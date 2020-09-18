@@ -17,7 +17,8 @@ int main(){
     cout << "You have entered:" << code << "...\n";
     cout << "ID verified! Plan B is proceeding...\n";
 
-
+    //由于C++存在输入缓冲区，在缓冲区内还存在一个换行符，导致return前的cin.get()不起作用
+    //需要设置两条cin.get()语句
     cin.get();
     cin.get();
     return 0 ;
