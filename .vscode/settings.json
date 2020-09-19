@@ -29,6 +29,8 @@
         "unordered_set": "cpp",
         "vector": "cpp",
         "functional": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "array": "cpp",
+        "string_view": "cpp"
     }
 }
