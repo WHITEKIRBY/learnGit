@@ -26,6 +26,7 @@ struct TreeNode
 //正确做法应是先遍历一遍inorder数组，建立一个hashmap，之后的find操作都是O（1）的了。
 //https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou-zao-9/
 
+// 修改1：节省了一次find（）的操作，在判断中就进行temp的赋值。
 class Solution
 {
 public:

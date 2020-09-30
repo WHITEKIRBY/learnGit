@@ -1,5 +1,5 @@
 #include <iostream>
-
+// 下面的程序大概都是仿照书本的例程写的，不知为何书上的程序显得更加优美和简洁，虽然可能不是一眼的直观。
 void Msort(int a[], int tmp[], int left, int right)
 {
     int center;
