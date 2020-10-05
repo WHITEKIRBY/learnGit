@@ -70,9 +70,9 @@ SearchTree Insert(int x, SearchTree T)
             std::cout << "Out of space!";
     }
     else if (x < T->Element)
-        T->left = (x, T->left);
+        T->left = Insert(x, T->left);
     else if (x > T->Element)
-        T->right = (x, T->right);
+        T->right = Insert(x, T->right);
     return T;
 }
 
